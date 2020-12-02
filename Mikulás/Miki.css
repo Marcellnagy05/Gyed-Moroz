@@ -1,0 +1,103 @@
+#mikulas{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    background-color: rgb(7, 7,144);
+}
+#fej{ 
+    position: absolute;
+    width:130px ;
+    height: 100px;
+    background-color: bisque;
+    left: 85pX;
+    top: 230px;
+
+    border-radius: 0% 0% 40% 40%;
+}
+
+#sapi1{
+    position: absolute;
+    left: 75px;
+    top: 80px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 150px solid red;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+}
+
+#sapi2{
+    position: absolute;
+    border-bottom: 60px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent; 
+
+    transform: rotate(80deg);
+    left: 155px;
+    top: 75px;
+}
+
+#bojt{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+
+    left: 200px;
+    top: 85px;
+    z-index: 1;
+}
+
+#prem{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+
+    border-radius: 20%;
+    left: 75px;
+    top: 210px;
+    z-index: 1;
+}
+.szem{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50% ;
+    display: inline-block;
+    background-color: white;
+    margin-left: 10px ;
+    margin-top: 11px;
+}
+#elsoszem{
+    margin-left: 20px;
+}
+.szemfekete{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: auto;
+    margin-top: 13px;
+    border-radius: 50px;
+}
+/*.szemszin{
+    width: 2px;
+    height: 2px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 13px;
+    border-radius: 50px;
+    z-index: 1;
+}*/
+#szakall{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20% 20% 50% 50%;
+    left: 77px;
+    top: 290px;
+}
